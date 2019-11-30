@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aee8e17b-5f1b-40ce-a2a7-4a3717be9699" name="Default Changelist" comment="" />
+    <list default="true" id="aee8e17b-5f1b-40ce-a2a7-4a3717be9699" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +40,37 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Workspace\DesignPattern\Singleton" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\DesignPattern\Singleton\src\com\windy" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\DesignPattern" />
+      <recent name="C:\Workspace\DesignPattern\Singleton" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windy.dp.Singleton.Main" />
+      <module name="Singleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windy.dp.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.windy.dp.Factory.Main" />
       <module name="Factory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.windy.dp.Factory.*" />
+          <option name="PATTERN" value="com.windy.dp.Factory.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +107,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575040321708</updated>
-      <workItem from="1575040324677" duration="2181000" />
+      <workItem from="1575040324677" duration="2414000" />
+      <workItem from="1575080959877" duration="1356000" />
+      <workItem from="1575096185774" duration="1749000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit:Create Project">
       <created>1575041435717</created>
@@ -99,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575042010573</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Commit:Create Project">
+      <created>1575042602289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575042602289</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,41 +151,49 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="140" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1575041269574" />
-    <state x="304" y="34" key="CommitChangelistDialog2" timestamp="1575042008334">
+    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1575097020242">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="304" y="34" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1575042008334" />
-    <state x="465" y="194" key="FileChooserDialogImpl" timestamp="1575041898183">
+    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1575097020242" />
+    <state x="304" y="34" key="CommitChangelistDialog2" timestamp="1575042600466">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="465" y="194" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1575041898183" />
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1575042516569">
+    <state x="304" y="34" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1575042600466" />
+    <state x="465" y="194" key="FileChooserDialogImpl" timestamp="1575042698149">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1575042516569" />
-    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1575042516569">
+    <state x="465" y="194" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1575042698149" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1575102140699">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1575042516569" />
-    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1575042516569">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1575102140699" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1575102140698">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1575042516569" />
-    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1575042516569">
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1575102140698" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1575102140698">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1575042516569" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1575102140698" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1575102140699">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1575102140699" />
     <state x="394" y="153" key="MultipleFileMergeDialog" timestamp="1575042037267">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="394" y="153" key="MultipleFileMergeDialog/0.0.1368.872@0.0.1368.872" timestamp="1575042037267" />
-    <state x="277" y="172" key="Vcs.Push.Dialog.v2" timestamp="1575042045383">
+    <state x="165" y="14" key="SettingsEditor" timestamp="1575102046924">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="172" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1575042045383" />
-    <state x="50" y="52" key="new project wizard" timestamp="1575040920413">
+    <state x="165" y="14" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1575102046924" />
+    <state x="277" y="172" key="Vcs.Push.Dialog.v2" timestamp="1575042604186">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="50" y="52" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1575040920413" />
+    <state x="277" y="172" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1575042604186" />
+    <state x="50" y="52" key="new project wizard" timestamp="1575102005093">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="50" y="52" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1575102005093" />
   </component>
 </project>

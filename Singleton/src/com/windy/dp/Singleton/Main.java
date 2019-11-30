@@ -2,6 +2,6 @@ package com.windy.dp.Singleton;
 
 public class Main {
     public static void main(String[] args) {
-        // write your code here
+        SingletonEntityStaticClass instance = SingletonEntityStaticClass.getInstance();
     }
 }
