@@ -1,4 +1,4 @@
-package com.windy.dp.Singleton;
+package com.windy.dp.singleton;
 
 
 /*静态内部内(建议使用)*/

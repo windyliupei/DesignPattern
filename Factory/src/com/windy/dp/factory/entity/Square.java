@@ -1,4 +1,4 @@
-package com.windy.dp.Factory.entity;
+package com.windy.dp.factory.entity;
 
 public class Square implements Shape {
     @Override

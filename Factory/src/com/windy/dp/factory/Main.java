@@ -1,6 +1,6 @@
-package com.windy.dp.Factory;
+package com.windy.dp.factory;
 
-import com.windy.dp.Factory.entity.Shape;
+import com.windy.dp.factory.entity.Shape;
 
 public class Main {
     public static void main(String[] args) {

@@ -2,14 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee8e17b-5f1b-40ce-a2a7-4a3717be9699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/AbstractFactory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/colorproduct/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/colorproduct/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/colorproduct/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/colorproduct/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/factory/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/factory/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/shapeproduct/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/shapeproduct/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/shapeproduct/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/shapeproduct/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/factory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/factory/entity/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/factory/entity/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/factory/entity/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/src/com/windy/dp/Factory/entity/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/src/com/windy/dp/factory/entity/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/src/com/windy/dp/Singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/com/windy/dp/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/src/com/windy/dp/Singleton/SingletonEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/com/windy/dp/singleton/SingletonEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/src/com/windy/dp/Singleton/SingletonEntityHunger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/com/windy/dp/singleton/SingletonEntityHunger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/src/com/windy/dp/Singleton/SingletonEntityStaticClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/com/windy/dp/singleton/SingletonEntityStaticClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/src/com/windy/dp/Singleton/SingletonEntityThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/com/windy/dp/singleton/SingletonEntityThreadSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/src/com/windy/dp/Singleton/SingletonEntityThreadSafeDcl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/src/com/windy/dp/singleton/SingletonEntityThreadSafeDcl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,9 +56,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/DesignPattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AbstractFactory/src/com/windy/dp/abstarctfactory/shapeproduct" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\DesignPattern\AbstractFactory\src\com\windy\dp\abstarctfactory\shapeproduct" />
       <recent name="C:\Workspace\DesignPattern\Singleton\src\com\windy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -52,12 +76,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.windy.dp.Singleton.Main" />
-      <module name="Singleton" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windy.dp.factory.Main" />
+      <module name="Factory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.windy.dp.Singleton.*" />
+          <option name="PATTERN" value="com.windy.dp.factory.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.windy.dp.Factory.Main" />
-      <module name="Factory" />
+      <option name="MAIN_CLASS_NAME" value="com.windy.dp.singleton.Main" />
+      <module name="Singleton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.windy.dp.Factory.entity.*" />
+          <option name="PATTERN" value="com.windy.dp.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +133,7 @@
       <updated>1575040321708</updated>
       <workItem from="1575040324677" duration="2414000" />
       <workItem from="1575080959877" duration="1356000" />
-      <workItem from="1575096185774" duration="1749000" />
+      <workItem from="1575096185774" duration="3746000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit:Create Project">
       <created>1575041435717</created>
@@ -132,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575042602289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added &quot;Factory&quot; pattern">
+      <created>1575102177358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575102177358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,25 +171,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit:Create Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit:Create Project" />
+    <MESSAGE value="Added &quot;Factory&quot; pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Factory&quot; pattern" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="98" key="#Project_Structure" timestamp="1575041013205">
+    <state x="277" y="98" key="#Project_Structure" timestamp="1575102349712">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="98" key="#Project_Structure/0.0.1368.872@0.0.1368.872" timestamp="1575041013205" />
+    <state x="277" y="98" key="#Project_Structure/0.0.1368.872@0.0.1368.872" timestamp="1575102349711" />
     <state x="140" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575041269574">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="140" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1575041269574" />
-    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1575097020242">
+    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1575103555724">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1575097020242" />
-    <state x="304" y="34" key="CommitChangelistDialog2" timestamp="1575042600466">
+    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1575103555724" />
+    <state x="304" y="34" key="CommitChangelistDialog2" timestamp="1575102175511">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="304" y="34" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1575042600466" />
+    <state x="304" y="34" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1575102175511" />
     <state x="465" y="194" key="FileChooserDialogImpl" timestamp="1575042698149">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -183,17 +215,17 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="394" y="153" key="MultipleFileMergeDialog/0.0.1368.872@0.0.1368.872" timestamp="1575042037267" />
-    <state x="165" y="14" key="SettingsEditor" timestamp="1575102046924">
+    <state x="165" y="14" key="SettingsEditor" timestamp="1575102342665">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="165" y="14" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1575102046924" />
-    <state x="277" y="172" key="Vcs.Push.Dialog.v2" timestamp="1575042604186">
+    <state x="165" y="14" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1575102342665" />
+    <state x="277" y="172" key="Vcs.Push.Dialog.v2" timestamp="1575102180362">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="172" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1575042604186" />
-    <state x="50" y="52" key="new project wizard" timestamp="1575102005093">
+    <state x="277" y="172" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1575102180362" />
+    <state x="50" y="52" key="new project wizard" timestamp="1575102336689">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="50" y="52" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1575102005093" />
+    <state x="50" y="52" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1575102336689" />
   </component>
 </project>

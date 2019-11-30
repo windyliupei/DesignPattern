@@ -1,4 +1,4 @@
-package com.windy.dp.Singleton;
+package com.windy.dp.singleton;
 
 
 /*饱汉模式(懒汉模式)*/

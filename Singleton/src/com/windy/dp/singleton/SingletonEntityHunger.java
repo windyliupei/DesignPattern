@@ -1,4 +1,4 @@
-package com.windy.dp.Singleton;
+package com.windy.dp.singleton;
 
 
 /*饿汉模式(建议使用)*/

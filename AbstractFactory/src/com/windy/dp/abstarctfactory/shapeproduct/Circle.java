@@ -1,4 +1,4 @@
-package com.windy.dp.Factory.entity;
+package com.windy.dp.abstarctfactory.shapeproduct;
 
 public class Circle implements Shape {
     @Override

@@ -1,4 +1,4 @@
-package com.windy.dp.Singleton;
+package com.windy.dp.singleton;
 
 public class Main {
     public static void main(String[] args) {
