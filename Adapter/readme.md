@@ -1,0 +1,1 @@
+通过 MediaAdapter 使得AudioPlayer 具备了播放 vlc，MP4的能力
