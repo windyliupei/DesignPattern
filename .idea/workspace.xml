@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee8e17b-5f1b-40ce-a2a7-4a3717be9699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Filter/Filter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/imp/AndCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/imp/CriteriaFemale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/imp/CriteriaMale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/imp/CriteriaSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filter/src/com/windy/dp/Filter/imp/OrCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/Composite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/src/com/windy/dp/Composite/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
@@ -150,7 +143,7 @@
       <workItem from="1575188316968" duration="4146000" />
       <workItem from="1575281579783" duration="6407000" />
       <workItem from="1575292175144" duration="35000" />
-      <workItem from="1575370169607" duration="1062000" />
+      <workItem from="1575370169607" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit:Create Project">
       <created>1575041435717</created>
@@ -236,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575292016113</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added &quot;Filter&quot; pattern for my thinking.">
+      <created>1575371252469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575371252470</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +249,8 @@
     <MESSAGE value="Added &quot;Builder&quot; pattern" />
     <MESSAGE value="Added &quot;Builder&quot; pattern for my thinking." />
     <MESSAGE value="Added &quot;Prototype&quot; pattern for my thinking." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Prototype&quot; pattern for my thinking." />
+    <MESSAGE value="Added &quot;Filter&quot; pattern for my thinking." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Filter&quot; pattern for my thinking." />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="98" key="#Project_Structure" timestamp="1575370407597">
@@ -268,10 +269,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="473" y="303" width="421" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1368.872@0.0.1368.872" timestamp="1575189192571" />
-    <state x="304" y="34" key="CommitChangelistDialog2" timestamp="1575292014109">
+    <state x="304" y="34" key="CommitChangelistDialog2" timestamp="1575371250966">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="304" y="34" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1575292014109" />
+    <state x="304" y="34" key="CommitChangelistDialog2/0.0.1368.872@0.0.1368.872" timestamp="1575371250966" />
     <state width="455" height="466" key="DebuggerActiveHint" timestamp="1575284884834">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -328,10 +329,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="165" y="14" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1575102342665" />
-    <state x="277" y="172" key="Vcs.Push.Dialog.v2" timestamp="1575292045892">
+    <state x="277" y="172" key="Vcs.Push.Dialog.v2" timestamp="1575371255100">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="172" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1575292045892" />
+    <state x="277" y="172" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1575371255100" />
     <state x="482" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575291998578">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -340,10 +341,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="415" y="196" key="extract.method.dialog/0.0.1368.872@0.0.1368.872" timestamp="1575370987879" />
-    <state x="50" y="52" key="new project wizard" timestamp="1575370396551">
+    <state x="50" y="52" key="new project wizard" timestamp="1575371831174">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="50" y="52" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1575370396551" />
+    <state x="50" y="52" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1575371831174" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
